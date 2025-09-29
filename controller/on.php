@@ -3,7 +3,7 @@
 $request = $_GET["ip"];
 $ip = "127.0.0.1";
 
-$link = new mysqli($ip, "fsole", "fsole", "controlMaestro");
+$link = new mysqli($ip, "root", "", "control_maestro");
 $link->set_charset("utf8") or die();
 
 $consulta = "SELECT mac FROM equipos WHERE ip = '$request';";

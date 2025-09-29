@@ -1,5 +1,5 @@
 <?php
-$output = exec('ping 10.2.234.26', $output );
+$output = exec('ping 127.0.0.1', $output);
 echo "<pre>$output</pre>";
 // $output = shell_exec('SHUTDOWN /m \\\\10.2.234.32 /f /s /t 0');
 // echo "<pre>$output</pre>";
@@ -36,4 +36,3 @@ echo "<pre>$output</pre>";
 //         }    
 //     }
 // }  
-?>
